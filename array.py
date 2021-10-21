@@ -11,9 +11,9 @@ print(values)
 
 a = arr.array("i",[])
 
-inputs = int(input("enter the length of the array"))
+inputs = int(input("enter the length of the array \n"))
 for i in range(inputs):
-    numbers = int(input(f"enter number {i}"))
+    numbers = int(input(f"enter number {i} \nS"))
     a.append(numbers)
 
 for i in range(inputs):
